@@ -20,7 +20,7 @@ logging.basicConfig(
 
 API_ID = int(os.environ.get("TG_API_ID", "31157048"))
 API_HASH = os.environ.get("TG_API_HASH", "ed0fea589fd64fe5985a373cb4ad9d84")
-SESSION = os.environ.get("TG_SESSION", "combined_bot")
+SESSION = os.environ.get("TG_SESSION", "mprVcFighter")
 DEFAULT_GAIN_DB = float(os.environ.get("GAIN_DB", "12"))
 
 # Optional: pre-approve users via env var, e.g. "12345,67890"
